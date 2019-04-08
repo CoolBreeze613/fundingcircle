@@ -29,14 +29,15 @@ In case Python is not available on your machine, use the following steps to inst
  
  **is_prime(num):** 
  Time to determine if a number m is prime. Upper time bound: O(sqrt(m)) 
+ 
  Optimizations : 
  1. Iterate only until the square root of the number, as all possible factors of a number lie in that limit.
  2. Skip even numbers except 2
  
- **get_first_n_primes** 
+ **get_first_n_primes:** 
  Time to find first N primes: N * sqrt(m)
  
- **multiplication_table**
+ **multiplication_table:**
  Time to print the multiplication table: N * N => O(n^2)
  
  Since the multiplication table has to be printed out in its entirety, the overall time complexity cannot be better than O(n^2)
