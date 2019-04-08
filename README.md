@@ -63,10 +63,10 @@ In case Python is not available on your machine, use the following steps to inst
  3. For an odd number, only check odd divisors
  
  **get_first_n_primes:** 
- Time to find first N primes: N * sqrt(m)
+ Time to find first N primes: sqrt(2) + sqrt(3) + .. + sqrt(n) = O(n * sqrt(n)) 
  
  **multiplication_table:**
- Time to print the multiplication table: N * N => O(n^2)
+ Time to print the multiplication table: N * N => O(N^2)
  
  Since the multiplication table has to be printed out in its entirety, the overall time complexity cannot be better than O(n^2)
  
